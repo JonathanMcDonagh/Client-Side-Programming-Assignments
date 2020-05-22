@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <title>Draggable</title>
+  
+  <style type="text/css">
+   body {
+    background: url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: auto;
+   }
+    #draggable img {
+      width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+   $(document).ready(function(){ 
+    $("#draggable").draggable(); //This calls the draggable plugin
+  });
+  </script>
+</head>
+
+<body>
+  <div id="draggable"> <!-- sets div for draggable -->
+  <img src="images/plane.png">
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,57 @@
+.small-image {
+  width:50px;
+  height:50px;
+  float: right;
+}
+
+li.thumbnail {
+	float: right;
+  margin-right:.5em;
+  background-color: black;
+}
+
+h1 {
+	color: white;
+}
+
+h3 {
+	text-decoration: underline;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+body {
+	background-color: black;
+}
+
+blockquote {
+	font-size: 18px;
+	color: black;
+}
+
+.tab1 {
+	font-size: 16px;
+	color: black;
+}
+
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover, 
+.nav-pills>li.active>a:visited {
+	background-color: black;
+	color: white;
+}
+
+footer {
+	float: right;
+}
+
+.custom-error {
+  color:red;
+}
